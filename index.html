@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title> GRIND FITNESS TRACKER</title>
+    
+    <title> GRIND FITNESS </title>
 </head>
 
 <body>
     <!-- head code -->
     <header>
-        <a href="#home" class="logo">GRIND <span>FITNESS TRACKER</span></a>
+        <a href="#home" class="logo">GRIND <span>FITNESS </span></a>
         <div class='bx bx-menu' id="menu-icon"></div>
         <ul class="navbar">
             <li><a href="#home">HOME</a></li>
@@ -28,15 +30,15 @@
     </header>
     <!-- home section code  -->
     <section class="home" id="home">
-        <div class="home-content">
+        <div class="home-content" data-aos="zoom-in">
             <h3>Build Your</h3>
             <h1>Dream Physique</h1>
-            <h3><span class="multiple-text"> Bodybuilding</span></h3>
+            <h3><span class="multiple-text"> </span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium error quos tenetur voluptate sint..
             </p>
             <a href="#" class="bnt">Join Us</a>
         </div>
-        <div class="home-img">
+        <div class="home-img" data-aos="zoom-in">
             <img src="/IMAGES/mus2.png" alt="Home">
         </div>
     </section>
@@ -45,8 +47,8 @@
 
     <!-- services section code  -->
      <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
-         <div class="services-content">
+        <h2 class="heading" data-aos="zoom-in-down">Our <span>Services</span></h2>
+         <div class="services-content" data-aos="zoom-in-up">
             <div class="row">
                 <img src="IMAGES/pexels-leonardho-1552249.jpg" alt="fitness1">
                 <h4>Physical Fitness</h4>
@@ -77,11 +79,10 @@
 
      <!-- about sec code  -->
       <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="/IMAGES/bbt.jpg" alt="about">
-
         </div>
-        <div class="about-content">
+        <div class="about-content" data-aos="zoom-in-up">
             <h2 class="heading">Why Choose Us?</h2>
             <p>Our Deverse membership base creates a friendly ans supportive atmosphere, ehere you can make friends and stay moticated </p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, numquam consequatur! Quam inventore quo ipsa?</p>
@@ -93,8 +94,8 @@
        
       <!-- prising section  -->
        <section class="plans" id="plans">
-        <h2 class="heading">Our <span>Plans</span></h2>
-        <div class="plan-content">
+        <h2 class="heading" data-aos="zoom-in-down">Our <span>Plans</span></h2>
+        <div class="plan-content" data-aos="zoom-in-up">
             <div class="box">
                 <h3>BASIC</h3>
                 <h2><span>$120/month</span></h2>
@@ -142,8 +143,8 @@
        </section>
        <!-- review code  -->
         <section class="review" id="review">
-            <div class="review-box"><h2 class="heading">COUSTOMER <span>REVIEWS</span></h2>
-            <div class="wrapper">
+            <div class="review-box"><h2 class="heading" data-aos="zoom-in-down">COUSTOMER <span>REVIEWS</span></h2>
+            <div class="wrapper" data-aos="zoom-in-up">
                 <div class="review-item">
                     <img src="/IMAGES/m2.jpg" alt="person">
                     <h2>KING</h2>
@@ -196,6 +197,15 @@
                 &copy;  GRIND FITNESS TRACKER 2024 - All Rights Reserved
             </p>
          </footer>
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+           AOS.init({
+            offset:300,
+            duration:1400,
+           });
+           
+         </script>
+         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
          <script src="script.js"></script>
 
 </html>
